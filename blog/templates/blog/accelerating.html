@@ -1,0 +1,552 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- HERO
+    ================================================== -->
+    <section class="section section-top section-full">
+
+      <!-- Slider -->
+      <div class="bg-slider">
+        <div class="slider slider-no-controls slider-no-draggable slider-fade" id="hero-slider-bg">
+          <div class="slider-item">
+            
+            <!-- Cover -->
+            <div class="bg-cover" style="background-image: url({% static 'img/accelerating.jpg' %})"></div>
+
+          </div>
+          <div class="slider-item">
+            
+            <!-- Cover -->
+            <div class="bg-cover" style="background-image: url({% static 'img/listing.jpg' %})"></div>
+
+          </div>
+          <div class="slider-item">
+            
+            <!-- Cover -->
+            <div class="bg-cover" style="background-image: url({% static 'img/lp.jpg' %})"></div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Overlay -->
+      <div class="bg-overlay"></div>
+
+      <!-- Triangles -->
+      <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+      <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-8 col-lg-7 order-md-2">
+
+            <!-- Slider -->
+            <div id="hero-slider" class="slider slider-no-controls slider-no-draggable slider-fade mb-5 mb-md-0" data-bind="slider" data-target="#hero-slider-bg">
+              <div class="slider-item">
+
+                <!-- Preheading -->
+                <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted">
+                  by Simpleqode
+                </p>
+                
+                <!-- Heading -->
+                <h1 class="text-white text-center mb-4">
+                  ACCELERATING SERVICE
+                </h1>
+
+                <!-- Subheading -->
+                <p class="lead text-white text-muted text-center mb-5">
+                  Incline is set of landing and support pages aimed at helping companies promote new products and business launches.
+                </p>
+
+                <!-- Button -->
+                <p class="text-center mb-0">
+                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                    보 러 가 기
+                  </a>
+                </p>
+
+              </div>
+              <div class="slider-item">
+
+                <!-- Preheading -->
+                <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted">
+                  by Simpleqode
+                </p>
+                
+                <!-- Heading -->
+                <h1 class="text-white text-center mb-4">
+                  LISTING STRATEGY FORMULATION
+                </h1>
+
+                <!-- Subheading -->
+                <p class="lead text-white text-muted text-center mb-5">
+                  Create beautiful websites from scratch with multiple pre-built pages and styled components.
+                </p>
+
+                <!-- Button -->
+                <p class="text-center mb-0">
+                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                    보 러 가 기
+                  </a>
+                </p>
+
+              </div>
+              <div class="slider-item">
+
+                <!-- Preheading -->
+                <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted">
+                  by Simpleqode
+                </p>
+                
+                <!-- Heading -->
+                <h1 class="text-white text-center mb-4">
+                  LP PROVISIONLP PROVISION
+                </h1>
+
+                <!-- Subheading -->
+                <p class="lead text-white text-muted text-center mb-5">
+                  Create beautiful websites from scratch with multiple pre-built pages and styled components.
+                </p>
+
+                <!-- Button -->
+                <p class="text-center mb-0">
+                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                    보 러 가 기
+                  </a>
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-md-2 order-md-1">
+
+            <!-- Controls -->
+            <div class="text-left">
+              <a href="#hero-slider" class="slider-control" data-slide="previous">
+                <span class="icon-arrow-left icon-2x"></span>
+              </a>
+            </div>
+
+          </div>
+          <div class="col-6 col-md-2 order-md-3">
+
+            <!-- Controls -->
+            <div class="text-right">
+              <a href="#hero-slider" class="slider-control" data-slide="next">
+                <span class="icon-arrow-right icon-2x"></span>
+              </a>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- SECTIONS
+    ================================================== -->
+    <!-- PAGES
+    ================================================== -->
+    <section class="section" id="pages">
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+
+            <!-- Heading -->
+            <h2 class="text-center mb-4">
+              ACCELERATING SERVICE
+            </h2>
+
+            <!-- Subheading -->
+            <p class="text-muted text-center mb-5">
+              Incline comes with several professionally designed landing pages that can be easily adapted for any project.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="app.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/45.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  Corporate logo & Token logo Production
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  기업, 토큰로고 제작 및 상표등록까지 진행해드리는 서비스입니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="company.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/90.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  ICO White Paper (Additional cost for each language)
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  ICO 프로젝트 이념에 맞게 다국적 언어의 디자인 작업이 들어간 백서를 개발합니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="fullpage.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/57.png' %}" alt="Fullpage scrolling" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  ICO Token Economy Development (Additional Charges per ecosystem
+                </h4>
+
+                <!-- Text -->
+                <p class="card-text text-muted">
+                  토큰 경제 모델을 개발해 토큰의 가치안정성과 생태계 유지율을 최적화합니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="product.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/44.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  ICO Token Use Case Development (Additional Charges per Use Case)
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  토큰의 유동성 및 유용성 등을 높이는 최적의 사용 용도 시나리오를 개발합니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="real-estate.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/46.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  Create Website & App Application
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  웹사이트 및 어플리케이션 제작을 진행해드리는 서비스입니다. 반응형, 서버개발, 트래픽 비용과 같은 추가내용은 별도의 비용이 요구됩니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="restaurant.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/91.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  Blockchain Development Human Resources Support
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  귀하(귀사)의 프로젝트에 적합 또는 필요한 블록체인 개발자 영입이 원활하도록 도와드립니다. 신입,경력, 총책임자(CTO) 수준으로 나뉘어집니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="service.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/43.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                  Global Adviser & Partner Offer
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  귀하(귀사)의 ICO 프로젝트 컨셉에 맞는 자문위원(고문위원) 및 파트너 정보 제공과 프로젝트 협업 제안을 통해 파트너 관계가 이루어 질 수 있도록 지원해드립니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="service.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/43.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                   Competitor Company Analysis
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  귀하(귀사)의 ICO 프로젝트 컨셉에 맞는 타겟팅 기업 분석을 통해 효과적인 차별화를 이뤄냅니다. 단점은 보완하고 장점을 부각시키는 지표로도 사용됩니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="service.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/43.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                   Blockchain News Media Marketing
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  귀하(귀사)의 ICO 프로젝트가 원활한 언론 홍보를 통해 글로벌 기업 신뢰도를 높일 수 있도록 지원하는 서비스입니다. 홍보 규모에 따라 가격이 상이합니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="service.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/43.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                   Global ICO Rating Support
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  귀하(귀사)의 ICO가 글로벌 시장에서 평가되어 기업신뢰도를 높여 신속한 투자를 진행합니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+
+
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="service.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/43.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                   ICO Project Introduction to global investors, invest community, VC etc
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  전문 투자자 및 투자 기관을 상대로 귀하(귀사)의 프로젝트 소개를 1:1로 진행하는 서비스입니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+
+          <div class="col-md-4">
+        
+            <!-- Item -->
+            <a href="service.html" class="card border-0 mb-3 mb-md-0">
+          
+              <!-- Image -->
+              <div class="card-img-top">
+                <img src="{% static 'img/43.png' %}" alt="App landing" class="img-fluid">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">
+                   ICO Related Global Event support
+                </h4>
+
+                <!-- Body -->
+                <p class="card-text text-muted">
+                  국내.외 글로벌 오프라인 밋업 행사를 주관 및 참여를 돕는 서비스입니다.
+                </p>
+
+              </div>
+
+            </a> <!-- / .card -->
+
+          </div>
+
+          
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+   
+
+    <!-- QUOTE
+    ================================================== -->
+    <section class="section">
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+        
+            <!-- Quote -->
+            <div class="quote">
+              <blockquote class="quote-blockquote">
+                <p class="quote-blockquote-content">
+                  기업의 최고의 무기와 돈 벌이 수단은 ACCELERATING이 답이다. 기업의 최고의 무기와 돈 벌이 수단은 ACCELERATING이 답이다.
+                </p>
+                <footer class="quote-blockquote-footer">
+                  <span class="text-zigzag">
+                    Dragon KWON
+                  </span>
+                </footer>
+              </blockquote>
+            </div> <!-- / .quote -->
+        
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+{% endblock %}
